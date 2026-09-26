@@ -1,9 +1,15 @@
+<div align="center">
+
+![Kenz-i Mahfî: Varlık, Tecelli ve Kozmik Muhabbet Ontolojisi](assets/images/01_kenz_header_banner.jpg)
+
 # Kenz-i Mahfî: Varlık, Tecelli ve Kozmik Muhabbet Ontolojisi
 
 > **كُنْتُ كَنْزاً مَخْفِيّاً فَأَحْبَبْتُ أَنْ أُعْرَفَ فَخَلَقْتُ الْخَلْقَ لِيَعْرِفُونِي**  
 > *"Küttü kenzen mahfiyyen fe-ahbebtü en u'refe fe-halaktü'l-halka li-yu'refûnî."*  
 > *(Ben gizli bir hazine idim; bilinmeyi/sevilmeyi istedim [sevdim] ve bilinmek için mahlûkatı yarattım.)*  
 > — **Hadis-i Kudsî / İrfanî Rivayet**
+
+</div>
 
 `kenz-i-mahfi`, İslam metafiziği, vahdet-i vücûd mektebi ve Doğu felsefesinde evrenin yaratılışını / zuhurunu mekanik ve nedensel bir determinizm yerine **"ilahi muhabbet" (ontolojik aşk)** ekseninde açıklayan düşünce geleneğini sistematik olarak derleyen; birincil kaynak metinleri, şerhleri, kavramsal analizleri, orijinal lisanlarındaki alıntıları ve karşılaştırmalı felsefi araştırmaları tek bir çatı altında toplayan açık kaynaklı bir monografi ve dokümantasyon repository'sidir.
 
@@ -28,14 +34,21 @@
    * [Jakob Böhme: *Ungrund* ve Yaratıcı Arzu](#jakob-böhme-ungrund-dipsiz-hiçlik-ve-ilahi-arzu)
    * [Baruch Spinoza: *Amor Dei Intellectualis*](#baruch-spinoza-amor-dei-intellectualis)
    * [Toshihiko Izutsu, William Chittick ve Henry Corbin](#çağdaş-akademik-ve-semantik-incelemeler)
-5. [Kavramlar Sözlüğü ve Terminoloji (Istılâhât)](#5-kavramlar-sözlüğü-ve-terminoloji-ıstılâhât)
-6. [Repository Dizin Mimarisi ve Belgeler](#6-repository-dizin-mimarisi-ve-belgeler)
-7. [Gelişmiş Arama ve Analiz Araçları](#7-gelişmiş-arama-ve-analiz-araçları)
-8. [Bibliyografya ve Klasik Kaynakça](#8-bibliyografya-ve-klasik-kaynakça)
+5. [Edebi ve Kültürel Yansımalar](#5-edebi-ve-kültürel-yansımalar--irfan-meclisi)
+6. [Kavramlar Sözlüğü ve Terminoloji (Istılâhât)](#6-kavramlar-sözlüğü-ve-terminoloji-ıstılâhât)
+7. [Repository Dizin Mimarisi ve Belgeler](#7-repository-dizin-mimarisi-ve-belgeler)
+8. [Gelişmiş Arama ve Analiz Araçları](#8-gelişmiş-arama-ve-analiz-araçları)
+9. [Bibliyografya ve Klasik Kaynakça](#9-bibliyografya-ve-klasik-kaynakça)
 
 ---
 
 ## 1. Nazari Çerçeve: Muhabbetin Ontolojik Temelleri
+
+<div align="center">
+
+![Merâtib-i Vücûd ve Nefes-i Rahmânî](assets/images/02_meratib_vucud_banner.jpg)
+
+</div>
 
 Tasavvuf metafiziğinde evren, boşlukta var edilmiş bağımsız cevherler yığını veya tanrının dışarıdan müdahale ettiği mekanik bir saat düzeneği değildir. Yaratılış, Hakk’ın Zât’ından sıfât ve esmâsına, oradan da kesret (çokluk) alemine doğru gerçekleşen kesintisiz bir tecelli ve nüzul sürecidir. Bu sürecin felsefi çekirdeğini üç ana merhale oluşturur:
 
@@ -97,6 +110,12 @@ Varlık dairesi iki tamamlayıcı yaydan oluşur:
 
 ## 3. Genişletilmiş Klasik Metinler ve Alıntılar Külliyatı
 
+<div align="center">
+
+![Birincil Metinler ve Şerhler Külliyatı](assets/images/03_klasik_metinler_banner.jpg)
+
+</div>
+
 ### A. Muhyiddin İbnü'l-Arabî (Şeyh-i Ekber)
 
 #### 1. *el-Fütûhâtü'l-Mekkiyye* (Bâb 178: Fî Ma'rifeti Makâmi'l-Mahabbe)
@@ -147,12 +166,10 @@ Varlık dairesi iki tamamlayıcı yaydan oluşur:
 ### C. Ahmed el-Gazzâlî & Fahreddîn-i Irâkî (Saf Aşk Metafiziği)
 
 #### 1. Ahmed el-Gazzâlî (*Sevânihu'l-Uşşâk*)
-İmam Gazzâlî'nin kardeşi Ahmed el-Gazzâlî (ö. 520/1126), aşkı varlığın mutlak kaynağı olarak tanımlar:
 > *"Aşk, ezelî ve ebedî ağaçtır. Kökü ezel toprağında, dalları ebed fezâsındadır. Âşık ile ma'şûk o ağacın meyvesidir. Henüz âlem yok iken aşk vardı; âlem yok olduktan sonra da geriye sırf aşk kalacaktır."*  
 > — *Sevânihu'l-Uşşâk*
 
 #### 2. Fahreddîn-i Irâkî (*Leme'ât*)
-Sadreddin Konevî'nin Fusûs derslerine katılan Irâkî, işittiği hakikatleri Farsça mensur-manzum bir şahesere dönüştürmüştür:
 > **عشق در پرده روی معشوق است / عاشق از خود برون چه می‌جوید؟**  
 > *"Aşk, ma'şûkun yüzündeki perdedir; âşık kendi dışından ne arayıp durur?*  
 > *Görünen de O'dur, gören de O'dur; konuşan da O'dur, dinleyen de O!"*  
@@ -202,8 +219,6 @@ Sadreddin Konevî'nin Fusûs derslerine katılan Irâkî, işittiği hakikatleri
 
 ### E. Molla Câmî (Abdurrahman Câmî: *Levâyih* ve Aşk Nurları)
 
-Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Züleyhâ* mesnevilerinde Kenz-i Mahfî'nin aynaya bakışını şöyle anlatır:
-
 > **در آن خلوت که هستی بی‌نشان بود / به کنج نیستی عالم نهان بود**  
 > **وجودی بود از نقش دوئی دور / ز سبحات رخ خود در جهان نور**  
 > **جمال مطلق از قید مظاهر / به نور خویشتن بر خویش ظاهر**  
@@ -231,21 +246,10 @@ Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Z�
 > *(Kâinat meclisini süsleyen benim ahımın dumanıdır; feleklere nur ve saflık veren ise bendeki aşk ateşinin alevidir.)*  
 > — *Türkçe Dîvân*
 
-> **جانı cânân dilemiş vermemek olmaz ey dil / Ne nizâ' eyleyelim ol yâr ile cân mülküdür**  
-> *(Ey gönül! Sevgili senin canını istemiş, vermemek olur mu? O yâr ile neyin davasını güdelim; bu can mülkü zaten O'nundur!)*  
-> — *Türkçe Dîvân*
-
 #### 2. *Leylâ vü Mecnûn* Mesnevisi (Suretten Hakikate Geçiş)
 > **یا رب بلای عشق ile kıl âşinâ beni / Bir dem belâ-yı aşktan etme cüdâ beni**  
 > **Az eyleme inâyetini ehl-i derdden / Ya'ni ki çok belâlara kıl mübtelâ beni**  
->  
-> *(Yâ Rab! Aşk belası ile beni hemhâl kıl; bir an olsun aşk belasından beni ayırma!*  
-> *Dert ehlinden inayetini eksik etme; yani beni daha nice aşklara müptela eyle!)*  
 > — *Leylâ vü Mecnûn, Münâcât*
-
-> Mecnûn'un Leylâ çöle geldiğinde söylediği söz:  
-> *"Ger ben sen isem nesin sen ey yâr / Ger sen sen isen neyim ben-i zâr?*  
-> *Bende Leylâ tecelli kıldı tamâm / Suret-i zâhiremde kalmadı nâm."*
 
 ---
 
@@ -257,19 +261,11 @@ Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Z�
 > *(Kendine hürmetle ve basiretle bak; çünkü sen kâinatın özü, varlıkların gözbebeği olan insansın!)*  
 > — *Hüsn ü Aşk*
 
-> **Bir şu'lesi var ki şem'-i cânın / Fânûsuna sığmaz âsmânın**  
-> *(Can kandilinin öyle bir alevi vardır ki, koca gökyüzünün fanusu bile onu içine almaya yetmez!)*  
-> — *Hüsn ü Aşk*
-
 #### 2. Niyâzî-i Mısrî (*Dîvân-ı İlâhiyyât*)
 > **Dermân arardım derdime derdim bana dermân imiş  
-> Bürhân sorardım aslıma aslım bana bürhân imiş**  
-> **Sağı u solu gözler idim dost yüzünü görsem deyu  
+> Bürhân sorardım aslıma aslım bana bürhân imiş  
+> Sağı u solu gözler idim dost yüzünü görsem deyu  
 > Ben taşrada arar idim ol cân içinde cân imiş**  
-> — *Dîvân-ı İlâhiyyât*
-
-> **Zât-ı Hak'ta mahv olan bî-nâm ü bî-nişân gerek  
-> Genc-i Mahfî'ye eren kenz-i revân olmak gerek**  
 > — *Dîvân-ı İlâhiyyât*
 
 ---
@@ -277,13 +273,9 @@ Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Z�
 ### H. Yunus Emre, Seyyid Nesîmî ve Âşıkân Nefesleri
 
 #### 1. Yunus Emre
-> *"Ete kemiğe büründüm / Yunus diye göründüm"*
-
+> *"Ete kemiğe büründüm / Yunus diye göründüm"*  
 > *"Ben bir gizli hazineydim / Aşk ile aşikâr oldum  
 > Kendi cemâlim görmeğe / Âlemde bir dîdâr oldum"*
-
-> *"İlim ilim bilmektir / İlim kendin bilmektir  
-> Sen kendini bilmezsin / Ya nice okumaktır"*
 
 #### 2. Seyyid İmâdeddin Nesîmî
 > **منده صغار ایکی جهان من بو جهانه صغمازم / گوهر لامکان منم کون و مکانه صغمازم**  
@@ -297,6 +289,12 @@ Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Z�
 
 ## 4. Karşılaştırmalı Metafizik ve Evrensel Felsefe Analizleri
 
+<div align="center">
+
+![Karşılaştırmalı Metafizik ve Evrensel Felsefe](assets/images/04_karsilastirmali_felsefe_banner.jpg)
+
+</div>
+
 | Filozof / Gelenek | Temel Kavram | Kenz-i Mahfî ve İlahi Aşk ile Karşılaştırma |
 | :--- | :--- | :--- |
 | **Aristoteles** | *Primum Movens Immotum* (*kineî hôs erômenon*) | Tanrı evreni arzu nesnesi (*sevilerek hareket ettiren*) olarak çeker. Tasavvuftaki "cezbe"nin felsefi habercisidir. |
@@ -307,7 +305,7 @@ Büyük Ekberî şârihi Molla Câmî (ö. 898/1492), *Levâyih* ve *Yûsuf u Z�
 
 ### Aristoteles: *Primum Movens Immotum* ve *Kinetai Hôs Erômenon*
 Aristoteles *Metaphysica* Kitap Lambda'da (XII, 1072b3) şöyle der:
-> **κινεῖ ὡς ἐρώمهνον** (*kineî hôs erômenon*)  
+> **κινεῖ ὡς ἐρώμενον** (*kineî hôs erômenon*)  
 > *"İlk İlke dokunmadan, sadece arzu edilen ve sevilen bir gaye olarak kâinatı hareket ettirir."*
 
 ### Plotinos: Sudûr (*Emanation*) vs. Ekberî Tecelli
@@ -317,17 +315,25 @@ Plotinos'ta madde ışığın bittiği karanlık ve kötülüktür. İbnü'l-Ara
 > *"Dipsiz hiçlik (Ungrund), kendi kendini görmek ve bilmek için kendi içinde bir ayna yarattı. Bu aynadaki ilk kıvılcım ilahi aşktır."*  
 > — **Jakob Böhme, *Mysterium Magnum***
 
-### Baruch Spinoza: *Amor Dei Intellectualis*
-Spinoza *Ethica* eserinde Tanrı'ya duyulan entelektüel aşkı en yüksek zihinsel kemâl sayar. Ancak tasavvuf bunu salt zihinsel bir anlama değil, varoluşsal bir fenâ ve vecd hali olarak yaşar.
+---
 
-### Çağdaş Akademik ve Semantik İncelemeler
-* **Toshihiko Izutsu (*Sufism and Taoism*):** İbn Arabî ve Lao Tzu'da varlık basamakları semantiği.
-* **William C. Chittick (*The Sufi Path of Knowledge*):** İlahi isimlerin kozmik nefesle açılımı.
-* **Henry Corbin (*Creative Imagination in the Sufism of Ibn 'Arabi*):** Kalp aynası ve bâtınî tecelli fenomenolojisi.
+## 5. Edebî ve Kültürel Yansımalar & İrfan Meclisi
+
+<div align="center">
+
+![Edebî ve Kültürel Yansımalar](assets/images/05_edebi_yansimalar_banner.jpg)
+
+</div>
+
+Klasik mazmun geleneğinde hazine daima terk edilmiş, yıkık viranelerde saklı bulunur (*"Genc-i pinhân der-harâbâtest"*). Şairler bu sembolü insanın kalbine ve âşığın perişan haline uygularlar:
+
+> *"Harâbât ehline dûr-bîn ile bakma ey zâhid  
+> Defineye mâlik nice virâneler var"*  
+> — **Koca Râgıp Paşa**
 
 ---
 
-## 5. Kavramlar Sözlüğü ve Terminoloji (Istılâhât)
+## 6. Kavramlar Sözlüğü ve Terminoloji (Istılâhât)
 
 * **Kenz-i Mahfî (كَنْز مَخْفِيّ):** Zuhur etmemiş, mutlak gayb ve gizlilik içindeki Zât mertebesi.
 * **Ahadiyyet (أَحَدِيَّة):** Sıfatların, isimlerin ve çokluğun mülahaza edilmediği saf teklik makamı.
@@ -341,13 +347,15 @@ Spinoza *Ethica* eserinde Tanrı'ya duyulan entelektüel aşkı en yüksek zihin
 
 ---
 
-## 6. Repository Dizin Mimarisi ve Belgeler
+## 7. Repository Dizin Mimarisi ve Belgeler
 
 ```plaintext
 kenz-i-mahfi/
 ├── README.md                                          # Kapsamlı Monografi ve Külliyat Rehberi
 ├── LICENSE                                            # MIT Lisansı
 ├── .gitignore                                         # Git Yoksayma Kuralları
+├── assets/
+│   └── images/                                        # 5 Adet Sinematik HD Banner Görseli
 ├── docs/
 │   ├── INDEX.md                                       # Tematik Dizin ve Mermaid Kavram Haritası
 │   ├── 01_teorik-metafizik/
@@ -386,13 +394,11 @@ kenz-i-mahfi/
 
 ---
 
-## 7. Gelişmiş Arama ve Analiz Araçları
+## 8. Gelişmiş Arama ve Analiz Araçları
 
 Repository içerisinde yerleşik iki adet Python yardımcı aracı bulunmaktadır:
 
 ### 1. Akıllı Metin ve Kavram Arama Motoru (`scripts/search_cli.py`)
-Türkçe şapkalı karakterleri (`â, î, û`) ve aksanları otomatik normalize ederek külliyat içinde hızlı arama yapar:
-
 ```bash
 # Tekil arama
 python scripts/search_cli.py "Nefes-i Rahmani"
@@ -402,15 +408,13 @@ python scripts/search_cli.py --interactive
 ```
 
 ### 2. Külliyat Bütünlük ve İstatistik Doğrulayıcı (`scripts/validate_and_stats.py`)
-Tüm belgelerin UTF-8 standartlarını, satır ve kelime istatistiklerini kontrol eder:
-
 ```bash
 python scripts/validate_and_stats.py
 ```
 
 ---
 
-## 8. Bibliyografya ve Klasik Kaynakça
+## 9. Bibliyografya ve Klasik Kaynakça
 
 * **İbnü'l-Arabî, Muhyiddin.** *el-Fütûhâtü'l-Mekkiyye* (Dâru Sâdır, Beyrut).
 * **İbnü'l-Arabî, Muhyiddin.** *Fusûsu'l-Hikem* (Tahkik: Ebû'l-Alâ Afîfî).
@@ -426,7 +430,7 @@ python scripts/validate_and_stats.py
 
 ---
 
-## 9. Katkı ve Lisans
+## 10. Katkı ve Lisans
 
 Bu proje akademik titizlik, metin tahkiki ve açık kaynak felsefesiyle hazırlanmıştır. İlgili metinlerin transkripsiyonu, yeni felsefi karşılaştırma dosyaları ve kaynakça eklemeleri için Pull Request gönderilmesi teşvik edilir.
 
