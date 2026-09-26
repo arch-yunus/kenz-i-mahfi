@@ -1,5 +1,11 @@
 # Kenz-i Mahfî Külliyatı: Tematik Dizin ve Kavram Haritası
 
+<div align="center">
+
+![Kenz-i Mahfî Külliyatı: Tematik Dizin ve Kütüphane](../assets/images/08_kulliyat_dizin_banner.jpg)
+
+</div>
+
 Bu dizin, repository içerisindeki tüm teorik, birincil, karşılaştırmalı ve edebi metinlerin bütüncül bir haritasını sunar.
 
 ---
