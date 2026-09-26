@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenz-i Mahfî: Varlık, Tecelli ve Kozmik Muhabbet Ontolojisi</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Markdown & Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-mark">✨</div>
+        <div class="logo-text">
+          <h2>KENZ-İ MAHFÎ</h2>
+          <span>Kozmik Muhabbet Ontolojisi</span>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Kavram veya metin ara...">
+      </div>
+
+      <nav class="nav-tree" id="navTree">
+        <!-- Dynamic Nav Links -->
+      </nav>
+
+      <div class="sidebar-footer">
+        <span>© 2026 Bahattin Yunus ÇETİN</span>
+        <a href="https://github.com/arch-yunus/kenz-i-mahfi" target="_blank">GitHub Repo ↗</a>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <header class="topbar">
+        <button class="menu-toggle" id="menuToggle" aria-label="Menü">☰</button>
+        <div class="current-crumb" id="currentCrumb">Kenz-i Mahfî Külliyatı</div>
+        <div class="topbar-actions">
+          <button id="themeToggle" class="action-btn" title="Tema">🌓</button>
+        </div>
+      </header>
+
+      <article class="document-viewer" id="docViewer">
+        <div class="loading-spinner">Yükleniyor...</div>
+      </article>
+    </main>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
