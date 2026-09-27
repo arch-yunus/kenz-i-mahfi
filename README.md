@@ -13,9 +13,10 @@
 ---
 
 [![Licence: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
-[![Corpus: 22 Documents](https://img.shields.io/badge/Dokümantasyon-22%20Akademik%20Belge-darkblue.svg)](docs/INDEX.md)
+[![Corpus: 45 Documents](https://img.shields.io/badge/Dokümantasyon-45%20Akademik%20Belge-darkblue.svg)](docs/INDEX.md)
 [![Status: Complete](https://img.shields.io/badge/Durum-Kapsamlı%20Külliyat-emerald.svg)](docs/INDEX.md)
-[![Encoding: UTF-8](https://img.shields.io/badge/Encoding-UTF--8%20Tahkikli-blueviolet.svg)](README.md)
+[![Web Viewer: Ready](https://img.shields.io/badge/Web%20Viewer-Etkileşimli%20Okuyucu-blueviolet.svg)](index.html)
+[![Glossary: 85+ Terms](https://img.shields.io/badge/Lügat-85%2B%20İrfânî%20Terim-orange.svg)](docs/05_tasavvufi-terimler-sozlugu/istilahat-i-irfaniyye-sozlugu.md)
 
 </div>
 
@@ -429,64 +430,58 @@ Jakob Böhme *Mysterium Magnum* eserinde:
 ```plaintext
 kenz-i-mahfi/
 ├── README.md                                          # Kapsamlı Monografi ve Külliyat Rehberi
+├── index.html                                         # Modern Web Okuyucu Uygulaması
 ├── LICENSE                                            # MIT Lisansı
 ├── .gitignore                                         # Git Yoksayma Kuralları
 ├── assets/
+│   ├── css/style.css                                  # Zengin Tipografi ve Karanlık/Aydınlık Tema
+│   ├── js/app.js                                      # Etkileşimli Arama, Sözlük ve Okuyucu Mantığı
 │   └── images/                                        # 8 Adet Sinematik HD Banner Görseli
+├── data/
+│   ├── corpus.json                                    # 45 Dokümanın Zengin JSON Veritabanı
+│   └── glossary.json                                  # 85+ İrfânî ve Felsefi Terim Veritabanı
 ├── docs/
-│   ├── INDEX.md                                       # Tematik Dizin ve Mermaid Kavram Haritası
-│   ├── 01_teorik-metafizik/
-│   │   ├── 01_kenz-i-mahfi-hadisi-tahkik.md           # Hadis Sened Tenkidi ve Keşfî Sıhhat
-│   │   ├── 02_meratib-i-vucud-hiyerarsisi.md          # Hazarât-ı Hams ve 7 Varlık Mertebesi
-│   │   ├── 03_ayan-i-sabite-ve-imkan.md               # Ezeli Arketipler ve İstidat Teorisi
-│   │   └── 04_nefes-i-rahmani-ve-tecelliyat.md        # Kozmik Nefes ve Teceddüd-i Emsâl
-│   ├── 02_birincil-metinler/
-│   │   ├── ibnu-l-arabi/
-│   │   │   ├── futuhat-bab-178-muhabbet-serhi.md      # Fütûhât 178. Bâb Muhabbet Şerhi
-│   │   │   └── fusus-hikmet-i-ademiyye-ve-muhammediyye.md # Fusûs Ayna Metaforu ve Sevgi Üçgeni
-│   │   ├── konevi/
-│   │   │   └── miftahu-gaybi-l-cem-analizleri.md      # Miftâhu Gaybi'l-Cem' Felsefi Tahlili
-│   │   ├── mevlana/
-│   │   │   ├── mesnevi-kozmik-donus-ve-ask.md         # Mesnevî Neyistan ve Kozmik Dönüş
-│   │   │   └── divan-i-kebir-cezbe-gazelleri.md       # Dîvân-ı Kebîr Semâ ve Aşk Gazelleri
-│   │   └── fuzuli/
-│   │       ├── fuzuli-divan-ontoloji-tahlili.md       # Fuzûlî Şiirsel Varlık ve Âh Dumanı
-│   │       └── leyla-vu-mecnun-tasavvufi-arka-plan.md # Mecâzdan Hakîkate Seyr-i Sülûk
-│   ├── 03_karsilastirmali-felsefe/
-│   │   ├── aristoteles-primum-movens-ve-tasavvuf.md   # Aristoteles Primum Movens Karşılaştırması
-│   │   ├── plotinos-sudur-vs-ibn-arabi-tecelli.md     # Sudûr vs Tecelli Doktrinleri
-│   │   ├── jakob-boehme-ungrund-ve-kenz-i-mahfi.md    # Jakob Böhme Ungrund ve Arzu Analizi
-│   │   └── izutsu-semantik-varlik-analizi.md          # Toshihiko Izutsu Semantik Tahlili
-│   └── 04_edebi-ve-kulturel-yansimalar/
-│       ├── divan-siirinde-kenz-i-mahfi-mazmunu.md     # Klasik Şiirde Harâbât ve Hazine Mazmunu
-│       ├── yunus-emre-ve-halk-irfani.md               # Yunus Emre'nin Türkçe İrfanı
-│       └── balkan-ve-anadolu-nefeslerinde-ilahi-muhabbet.md # Nesîmî ve Bektâşî Nefesleri
+│   ├── INDEX.md                                       # Tematik Dizin ve Mermaid Zihin Haritası
+│   ├── 01_teorik-metafizik/                           # Hadis Tahkiki, Merâtib-i Vücûd, Cîlî, Devir
+│   ├── 02_birincil-metinler/                          # İbnü'l-Arabî, Mevlânâ, Fuzûlî, İbnü'l-Fârız, Nesefî, Gazzâlî
+│   ├── 03_karsilastirmali-felsefe/                    # Hegel, Heidegger, Jung, Spinoza, Kuantum, Plotinos
+│   ├── 04_edebi-ve-kulturel-yansimalar/               # Divan Edebiyatı, Nesîmî, Kaygusuz, Gâlib, Yunus
+│   └── 05_tasavvufi-terimler-sozlugu/                 # Istılâhât-ı İrfâniyye Sözlüğü (85+ Kavram)
 ├── kaynakca/
 │   ├── birincil-kaynaklar.md                          # Klasik Yazmalar ve Tenkitli Neşirler
 │   └── modern-akademik-literatur.md                   # Doğu-Batı Akademik Araştırmaları
 └── scripts/
-    ├── search_cli.py                                  # Akıllı Normalizasyonlu Kavram Arama CLI'ı
-    └── validate_and_stats.py                          # Doküman ve İstatistik Doğrulama Aracı
+    ├── build_site.py                                  # Corpus ve Sözlük JSON Derleyicisi
+    ├── search_cli.py                                  # Renkli ANSI Destekli Akıllı Arama CLI'ı
+    └── validate_and_stats.py                          # Bütünlük, Link ve Terim Frekans Doğrulayıcı
 ```
 
 ---
 
 ## 8. Gelişmiş Arama ve Analiz Araçları
 
-Repository içerisinde yerleşik iki adet Python yardımcı aracı bulunmaktadır:
+Repository içerisinde yerleşik üç adet Python yardımcı aracı bulunmaktadır:
 
 ### 1. Akıllı Metin ve Kavram Arama Motoru (`scripts/search_cli.py`)
 ```bash
-# Tekil kavram araması
-python scripts/search_cli.py "Nefes-i Rahmani"
+# Tekil kavram araması (Renkli terminal ve eşleşme satırları)
+python scripts/search_cli.py "Nefes-i Rahmânî"
 
-# İnteraktif arama konsolu
+# Kategori filtreli arama
+python scripts/search_cli.py "Aşk" --category "birincil"
+
+# Etkileşimli canlı arama konsolu
 python scripts/search_cli.py --interactive
 ```
 
-### 2. Külliyat Bütünlük ve İstatistik Doğrulayıcı (`scripts/validate_and_stats.py`)
+### 2. Külliyat Bütünlük, Link ve İstatistik Doğrulayıcı (`scripts/validate_and_stats.py`)
 ```bash
 python scripts/validate_and_stats.py
+```
+
+### 3. Külliyat ve Sözlük JSON Derleyicisi (`scripts/build_site.py`)
+```bash
+python scripts/build_site.py
 ```
 
 ---

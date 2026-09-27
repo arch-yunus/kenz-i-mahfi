@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kenz-i Mahfî: Varlık, Tecelli ve Kozmik Muhabbet Ontolojisi</title>
+  <meta name="description" content="Kenz-i Mahfî Hadisi, Vahdet-i Vücûd Ontolojisi, İbnü'l-Arabî, Mevlânâ, Sühreverdî, Molla Sadrâ ve Karşılaştırmalı Batı Felsefesi Külliyatı.">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Markdown & Mermaid -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Markdown Parser & Mermaid Diagrams -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
+  <div class="reading-progress-bar" id="readingProgressBar"></div>
+
   <div class="app-layout">
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
@@ -26,34 +29,103 @@
 
       <div class="search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="Kavram veya metin ara...">
+        <input type="text" id="searchInput" placeholder="Kavram, düşünür veya metin ara...">
+        <button id="clearSearch" class="clear-search-btn" title="Temizle" style="display: none;">✕</button>
+      </div>
+
+      <!-- Category & Tag Filter Badges -->
+      <div class="tag-filter-container" id="tagFilters">
+        <span class="tag-pill active" data-tag="all">Tümü</span>
+        <span class="tag-pill" data-tag="Ontoloji">Ontoloji</span>
+        <span class="tag-pill" data-tag="Aşk & Muhabbet">Aşk</span>
+        <span class="tag-pill" data-tag="Mukayese">Felsefe</span>
+        <span class="tag-pill" data-tag="Edebiyat">Edebiyat</span>
+        <span class="tag-pill" data-tag="Hadis">Hadis</span>
       </div>
 
       <nav class="nav-tree" id="navTree">
         <!-- Dynamic Nav Links -->
       </nav>
 
+      <div class="sidebar-stats" id="sidebarStats">
+        <span id="statDocsCount">📚 40 Doküman</span>
+        <span id="statWordsCount">✍️ 45.000+ Kelime</span>
+      </div>
+
       <div class="sidebar-footer">
-        <span>© 2026 Bahattin Yunus ÇETİN</span>
-        <a href="https://github.com/arch-yunus/kenz-i-mahfi" target="_blank">GitHub Repo ↗</a>
+        <div class="footer-left">
+          <span>© 2026 Bahattin Yunus ÇETİN</span>
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/arch-yunus/kenz-i-mahfi" target="_blank" title="GitHub Repository">GitHub Repo ↗</a>
+        </div>
       </div>
     </aside>
 
     <!-- Main Content Area -->
-    <main class="main-content">
+    <main class="main-content" id="mainContent">
       <header class="topbar">
-        <button class="menu-toggle" id="menuToggle" aria-label="Menü">☰</button>
-        <div class="current-crumb" id="currentCrumb">Kenz-i Mahfî Külliyatı</div>
+        <div class="topbar-left">
+          <button class="menu-toggle icon-btn" id="menuToggle" aria-label="Menüyü Aç/Kapat">☰</button>
+          <div class="current-crumb" id="currentCrumb">Kenz-i Mahfî Külliyatı</div>
+        </div>
+
         <div class="topbar-actions">
-          <button id="themeToggle" class="action-btn" title="Tema">🌓</button>
+          <button id="wisdomBtn" class="action-btn action-btn-gold" title="Günün Hikmeti">✨ Hikmet</button>
+          <button id="glossaryBtn" class="action-btn" title="Kavramlar Sözlüğü">📖 Lügat</button>
+          <div class="font-resizer">
+            <button id="fontDec" class="font-btn" title="Yazıyı Küçült">A-</button>
+            <button id="fontInc" class="font-btn" title="Yazıyı Büyüt">A+</button>
+          </div>
+          <button id="printBtn" class="icon-btn" title="Yazdır / PDF">🖨️</button>
+          <button id="themeToggle" class="icon-btn" title="Tema Değiştir (Aydınlık/Karanlık)">🌓</button>
         </div>
       </header>
 
+      <!-- Document Viewer -->
       <article class="document-viewer" id="docViewer">
-        <div class="loading-spinner">Yükleniyor...</div>
+        <div class="loading-spinner">
+          <div class="spinner-ring"></div>
+          <p>Kenz-i Mahfî Külliyatı Yükleniyor...</p>
+        </div>
       </article>
     </main>
   </div>
+
+  <!-- Wisdom / Quote Modal -->
+  <div class="modal-backdrop" id="wisdomModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>✨ Günün Hikmet ve İrfân İncisi</h3>
+        <button class="modal-close" id="closeWisdom">✕</button>
+      </div>
+      <div class="modal-body" id="wisdomContent">
+        <!-- Dynamic Quote -->
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn action-btn-gold" id="nextWisdomBtn">Yeni Bir Hikmet Getir ↻</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glossary Modal -->
+  <div class="modal-backdrop" id="glossaryModal">
+    <div class="modal-card modal-large">
+      <div class="modal-header">
+        <h3>📖 Istılâhât-ı İrfâniyye & Felsefe Lügatı</h3>
+        <button class="modal-close" id="closeGlossary">✕</button>
+      </div>
+      <div class="modal-search">
+        <input type="text" id="glossarySearchInput" placeholder="Sözlükte terim ara (örn: A'yân-ı Sâbite, Amâ, Vahdet)...">
+      </div>
+      <div class="modal-body glossary-list" id="glossaryList">
+        <!-- Dynamic Glossary Items -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast"></div>
 
   <script src="assets/js/app.js"></script>
 </body>
